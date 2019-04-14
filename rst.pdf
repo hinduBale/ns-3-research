@@ -1,0 +1,1030 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R /F5 6 0 R /F6 9 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/BaseFont /Symbol /Encoding /SymbolEncoding /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica-BoldOblique /Encoding /WinAnsiEncoding /Name /F5 /Subtype /Type1 /Type /Font
+>>
+endobj
+7 0 obj
+<<
+/Contents 15 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 14 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+8 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/)
+>> /Border [ 0 0 0 ] /Rect [ 72.69291 324.3307 145.4929 336.3307 ] /Subtype /Link /Type /Annot
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F6 /Subtype /Type1 /Type /Font
+>>
+endobj
+10 0 obj
+<<
+/Annots [ 8 0 R ] /Contents 16 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 14 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+11 0 obj
+<<
+/Contents 17 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 14 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+12 0 obj
+<<
+/Outlines 18 0 R /PageLabels 19 0 R /PageMode /UseNone /Pages 14 0 R /Type /Catalog
+>>
+endobj
+13 0 obj
+<<
+/Author () /CreationDate (D:20181011184039+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20181011184039+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (0/1 KNAPSACK PROBLEM) /Trapped /False
+>>
+endobj
+14 0 obj
+<<
+/Count 3 /Kids [ 7 0 R 10 0 R 11 0 R ] /Type /Pages
+>>
+endobj
+15 0 obj
+<<
+/Length 10197
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 741.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 108.8249 0 Td (0/1 KNAPSACK PROBLEM) Tj T* -108.8249 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 711.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3 Tm /F2 15 Tf 18 TL 164.0999 0 Td (Problem Statement:) Tj T* -164.0999 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 677.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .346488 Tw 12 TL /F3 10 Tf 0 0 0 rg (Given a Knapsack of a maximum capacity of W and N items each with its own value and weight, throw in) Tj T* 0 Tw (items inside the Knapsack such that the final contents has the maximum value.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 659.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Properties:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 653.0236 cm
+Q
+q
+1 0 0 1 62.69291 653.0236 cm
+Q
+q
+1 0 0 1 62.69291 641.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (1.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 26 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (In 0/1 Knapsack problem, items can be entirely accepted or rejected.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 635.0236 cm
+Q
+q
+1 0 0 1 62.69291 623.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (2.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 26 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Given a knapsack with maximum capacity W, and a set S consisting of n items.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 617.0236 cm
+Q
+q
+1 0 0 1 62.69291 605.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (3.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 26 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Each item i has some weight wi and benefit value bi\(all wi and W are integer values\).) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 599.0236 cm
+Q
+q
+1 0 0 1 62.69291 587.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (4.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 26 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The problem is how to pack the knapsack to achieve maximum total value of packed items.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 581.0236 cm
+Q
+q
+1 0 0 1 62.69291 557.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (5.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 26 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .298735 Tw (For solving the knapsack problem we can generate the sequence of decisions in order to obtain the) Tj T* 0 Tw (optimum selection.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 551.0236 cm
+Q
+q
+1 0 0 1 62.69291 539.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (6.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 26 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Let Xn be the optimum sequence and there are two instances {Xn} and {Xn-1, Xn-2\205 X1}.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 533.0236 cm
+Q
+q
+1 0 0 1 62.69291 521.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (7.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 26 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (So from {Xn-1, Xn-2\205 X1} we will choose the optimum sequence with respect to Xn.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 515.0236 cm
+Q
+q
+1 0 0 1 62.69291 503.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (8.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 26 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The remaining set should fulfill the condition of filling Knapsack of capacity W with maximum profit.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 497.0236 cm
+Q
+q
+1 0 0 1 62.69291 485.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (9.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 26 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Thus, 0/1 Knapsack problem is solved using the principle of optimality.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 485.0236 cm
+Q
+q
+1 0 0 1 62.69291 467.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL (To solve this problem using dynamic programming method we will perform following steps:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 438.6772 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 420.6772 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Steps:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 414.6772 cm
+Q
+q
+1 0 0 1 62.69291 414.6772 cm
+Q
+q
+1 0 0 1 62.69291 402.6772 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 26 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Let, f) Tj /F1 8 Tf -5 Ts (i) Tj /F1 10 Tf 0 Ts ( y) Tj /F1 8 Tf -5 Ts (j) Tj /F1 10 Tf 0 Ts ( be the value of optimal solution.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 396.6772 cm
+Q
+q
+1 0 0 1 62.69291 384.6772 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 26 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Using formula: f) Tj /F1 8 Tf -5 Ts (i) Tj /F1 10 Tf 0 Ts (\(y) Tj /F1 8 Tf -5 Ts (j) Tj /F1 10 Tf 0 Ts (\) =max f) Tj /F1 8 Tf -5 Ts (i-1) Tj /F1 10 Tf 0 Ts (\(y\),f) Tj /F1 8 Tf -5 Ts (i-1) Tj /F1 10 Tf 0 Ts (\(y) Tj /F4 10 Tf 12 TL (-) Tj /F1 10 Tf 12 TL (wi\)+ p) Tj /F1 8 Tf -5 Ts (i) Tj /F1 10 Tf 0 Ts ( to solve problem.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 378.6772 cm
+Q
+q
+1 0 0 1 62.69291 366.6772 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 26 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Initially S) Tj /F1 8 Tf 5 Ts (0) Tj /F1 10 Tf 0 Ts ( =\(0,0\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 360.6772 cm
+Q
+q
+1 0 0 1 62.69291 348.6772 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 26 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Then S) Tj /F1 8 Tf -5 Ts (1) Tj 5 Ts (i) Tj /F1 10 Tf 0 Ts (=\(P,W\)|\(P\226p) Tj /F1 8 Tf -5 Ts (i) Tj /F1 10 Tf 0 Ts (,W\226w) Tj /F1 8 Tf -5 Ts (i) Tj /F1 10 Tf 0 Ts (\)Si) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 342.6772 cm
+Q
+q
+1 0 0 1 62.69291 330.6772 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 26 -3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (S) Tj /F1 8 Tf -5 Ts (1) Tj 5 Ts (i+1) Tj /F1 10 Tf 0 Ts (can be computed by merging S) Tj /F1 8 Tf 5 Ts (i) Tj /F1 10 Tf 0 Ts ( and S) Tj /F1 8 Tf -5 Ts (1) Tj 5 Ts (i) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 324.6772 cm
+Q
+q
+1 0 0 1 62.69291 312.6772 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 26 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (This is used for obtaining optimal solution.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 312.6772 cm
+Q
+q
+1 0 0 1 62.69291 284.3307 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 266.3307 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (EXAMPLE:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 260.3307 cm
+Q
+q
+1 0 0 1 62.69291 236.3307 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F5 10 Tf 12 TL 192.4399 0 Td (Distribution Table) Tj T* -192.4399 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 140.3307 cm
+1 1 1 rg
+n 0 90 469.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 72 469.8898 -18 re f*
+1 1 1 rg
+n 0 54 469.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 36 469.8898 -18 re f*
+1 1 1 rg
+n 0 18 469.8898 -18 re f*
+.960784 .960784 .862745 rg
+n 0 90 469.8898 -18 re f*
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 75 cm
+q
+.960784 .960784 .862745 rg
+n 0 0 158.869 12 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 78.3245 0 Td (i) Tj T* -78.3245 0 Td ET
+Q
+Q
+q
+1 0 0 1 176.869 75 cm
+q
+.960784 .960784 .862745 rg
+n 0 0 201.5863 12 re f*
+Q
+q
+BT 1 0 0 1 0 2 Tm 95.73513 0 Td 12 TL /F1 10 Tf 0 0 0 rg (p ) Tj /F1 8 Tf -5 Ts (i) Tj T* -95.73513 0 Td ET
+Q
+Q
+q
+1 0 0 1 390.4553 75 cm
+q
+.960784 .960784 .862745 rg
+n 0 0 73.4345 12 re f*
+Q
+q
+BT 1 0 0 1 0 2 Tm 30.82925 0 Td 12 TL /F1 10 Tf 0 0 0 rg (w ) Tj /F1 8 Tf -5 Ts (i) Tj T* -30.82925 0 Td ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 6 57 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 176.869 57 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 390.4553 57 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 176.869 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 390.4553 39 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 176.869 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (5) Tj T* ET
+Q
+Q
+q
+1 0 0 1 390.4553 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (4) Tj T* ET
+Q
+Q
+q
+1 0 0 1 176.869 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (6) Tj T* ET
+Q
+Q
+q
+1 0 0 1 390.4553 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (5) Tj T* ET
+Q
+Q
+q
+1 J
+1 j
+0 0 0 RG
+.25 w
+n 0 72 m 469.8898 72 l S
+n 0 54 m 469.8898 54 l S
+n 0 36 m 469.8898 36 l S
+n 0 18 m 469.8898 18 l S
+n 170.869 0 m 170.869 90 l S
+n 384.4553 0 m 384.4553 90 l S
+n 0 90 m 469.8898 90 l S
+n 0 0 m 469.8898 0 l S
+n 0 0 m 0 90 l S
+n 469.8898 0 m 469.8898 90 l S
+Q
+Q
+q
+1 0 0 1 62.69291 140.3307 cm
+Q
+q
+1 0 0 1 62.69291 122.3307 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (SOLUTION:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 104.3307 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Build sequence of decision S) Tj /F1 8 Tf 5 Ts (0) Tj /F1 10 Tf 0 Ts (,S) Tj /F1 8 Tf 5 Ts (1) Tj /F1 10 Tf 0 Ts (,S) Tj /F1 8 Tf 5 Ts (2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 86.33071 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Initially S) Tj /F1 8 Tf 5 Ts (0) Tj /F1 10 Tf 0 Ts ( = \(0,0\)) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+16 0 obj
+<<
+/Length 6570
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 753.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (S) Tj /F1 8 Tf -5 Ts (0) Tj 5 Ts (1) Tj /F1 10 Tf 0 Ts (= \(1,2\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 723.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .262542 Tw 12 TL /F1 10 Tf 0 0 0 rg (This means while building S) Tj /F1 8 Tf -5 Ts (0) Tj 5 Ts (1) Tj /F1 10 Tf 0 Ts (we select the next i) Tj /F1 8 Tf 5 Ts (th) Tj /F1 10 Tf 0 Ts (pair. For S) Tj /F1 8 Tf -5 Ts (0) Tj 5 Ts (1) Tj /F1 10 Tf 0 Ts (we have selected first \(P, W\) pair which is) Tj T* 0 Tw (\(1, 2\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 707.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (Now S) Tj /F2 8 Tf 5 Ts (1) Tj /F2 10 Tf 0 Ts ( =Merge S) Tj /F2 8 Tf 5 Ts (0) Tj /F2 10 Tf 0 Ts ( and S) Tj /F2 8 Tf -5 Ts (0) Tj 5 Ts (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 692.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 10 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (=\(0,0\),\(1,2\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 676.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (S) Tj /F2 8 Tf -5 Ts (1) Tj 5 Ts (1) Tj /F2 10 Tf 0 Ts (={Select next pair \(P, W\) and add it with S) Tj /F2 8 Tf 5 Ts (1) Tj /F2 10 Tf 0 Ts (}) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 631.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 32 Tm  T* ET
+q
+1 0 0 1 10 30 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (=\(2,3\),\(2+0,3+0\),\(2+1,3+2\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 17 Tm  T* ET
+q
+1 0 0 1 10 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (=\(2,3\),\(3,5\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 10 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 10 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (since Repetition of \(2, 3\) is avoided.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 615.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (S) Tj /F2 8 Tf 5 Ts (2) Tj /F2 10 Tf 0 Ts ( =Merge S) Tj /F2 8 Tf 5 Ts (1) Tj /F2 10 Tf 0 Ts ( and S) Tj /F2 8 Tf -5 Ts (1) Tj 5 Ts (1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 600.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 10 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (=\(0,0\),\(1,2\),\(2,3\),\(3,5\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 584.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (S) Tj /F2 8 Tf -5 Ts (2) Tj 5 Ts (1) Tj /F2 10 Tf 0 Ts (={Select next pair \(P, W\) and add it with S) Tj /F2 8 Tf 5 Ts (2) Tj /F2 10 Tf 0 Ts ( }) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 569.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 10 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (=\(5,4\),\(6,6\),\(7,7\),\(8,9\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 551.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (S) Tj /F1 8 Tf 5 Ts (3) Tj /F1 10 Tf 0 Ts ( ={Merge S) Tj /F1 8 Tf 5 Ts (2) Tj /F1 10 Tf 0 Ts ( and S) Tj /F1 8 Tf -5 Ts (2) Tj 5 Ts (1) Tj /F1 10 Tf 0 Ts (}) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 533.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (S) Tj /F1 8 Tf 5 Ts (3) Tj /F1 10 Tf 0 Ts ( =\(0,0\),\(1,2\),\(2,3\),\(5,4\),\(6,6\),\(7,7\),\(8,9\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 504.6772 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 474.6772 cm
+q
+BT 1 0 0 1 0 14 Tm .21881 Tw 12 TL /F1 10 Tf 0 0 0 rg (Note that the pair \(3, 5\) is purged from S) Tj /F1 8 Tf 5 Ts (3) Tj /F1 10 Tf 0 Ts ( . This is because, let us assume \(P) Tj /F1 8 Tf -5 Ts (j) Tj /F1 10 Tf 0 Ts (,W) Tj /F1 8 Tf -5 Ts (j) Tj /F1 10 Tf 0 Ts (\)=\(3,5\)and\(P) Tj /F1 8 Tf -5 Ts (k) Tj /F1 10 Tf 0 Ts (,W) Tj /F1 8 Tf -5 Ts (k) Tj /F1 10 Tf 0 Ts (\)=\(5,4\),) Tj T* 0 Tw (Here P) Tj /F1 8 Tf -5 Ts (j) Tj /F1 10 Tf 0 Ts ( ) Tj /F4 10 Tf 12 TL (\243) Tj /F1 10 Tf 12 TL ( P) Tj /F1 8 Tf -5 Ts (k) Tj /F1 10 Tf 0 Ts ( and W) Tj /F1 8 Tf -5 Ts (j) Tj /F1 10 Tf 0 Ts ( > W) Tj /F1 8 Tf -5 Ts (k) Tj /F1 10 Tf 0 Ts ( is true hence we will eliminate pair \(Pj,W) Tj /F1 8 Tf -5 Ts (j) Tj /F1 10 Tf 0 Ts (\) i.e \(3, 5\) from S) Tj /F1 8 Tf -5 Ts (3) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 458.6772 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 0 rg (S) Tj /F2 8 Tf -5 Ts (3) Tj 5 Ts (1) Tj /F2 10 Tf 0 Ts (={Select next pair \(P, W\) and add it with S) Tj /F2 8 Tf 5 Ts (3) Tj /F2 10 Tf 0 Ts ( }) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 443.6772 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 10 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (=\(6,5\),\(7,7\),\(8,8\),\(11,9\),\(12,11\),\(13,12\),\(14,14\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 425.6772 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (S) Tj /F1 8 Tf 5 Ts (4) Tj /F1 10 Tf 0 Ts ( =\(0,0\),\(1,2\),\(2,3\),\(5,4\),\(6,6\),\(7,7\),\(8,9\),\(6,5\),\(7,7\),\(8,8\),\(11,9\),\(12,11\),\(13,12\),\(14,14\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 397.3307 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 355.3307 cm
+q
+BT 1 0 0 1 0 26 Tm .154951 Tw 12 TL /F1 10 Tf 0 0 0 rg (Now we are interested in M =8. We get pair \(8, 8\) in S) Tj /F1 8 Tf 5 Ts (4) Tj /F1 10 Tf 0 Ts ( . Hence we will set X) Tj /F1 8 Tf -5 Ts (4) Tj /F1 10 Tf 0 Ts ( . Now we select next object) Tj T* 0 Tw .636584 Tw (\(P\226P) Tj /F1 8 Tf -5 Ts (4) Tj /F1 10 Tf 0 Ts (\) and \(W\226W) Tj /F1 8 Tf -5 Ts (4) Tj /F1 10 Tf 0 Ts (\) i.e \(8 - 6\) and \(8 - 5\). i.e \(2, 3\) Pair \(2, 3\) \200 S) Tj /F1 8 Tf 5 Ts (2) Tj /F1 10 Tf 0 Ts ( hence set X) Tj /F1 8 Tf -5 Ts (2) Tj /F1 10 Tf 0 Ts ( =1. So we get the final) Tj T* 0 Tw (solution as \(0, 1, 0, 1\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 339.3307 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (Implementation in CPP:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 324.3307 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 10 0 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (GeeksForGeeks) Tj  T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 87.13071 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 228 re B*
+Q
+q
+BT 1 0 0 1 0 206 Tm 12 TL /F6 10 Tf 0 0 0 rg (#include) Tj (<) Tj (stdio.h) Tj (>) Tj  T* (int max\(int a, int b\) { return \(a ) Tj (>) Tj ( b\)? a : b; }) Tj T*  T* (// Returns the maximum value that can be put in a knapsack of capacity W) Tj T* (int knapSack\(int W, int wt[], int val[], int n\)) Tj T* ({) Tj T* (   if \(n == 0 || W == 0\)) Tj T* (       return 0;) Tj T*  T*  T* (   if \(wt[n-1] ) Tj (>) Tj ( W\)) Tj T* (       return knapSack\(W, wt, val, n-1\);) Tj T*  T*  T* (   else return max\( val[n-1] + knapSack\(W-wt[n-1], wt, val, n-1\),) Tj T* (       knapSack\(W, wt, val, n-1\)\);) Tj T*  T* ( }) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+17 0 obj
+<<
+/Length 543
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 619.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 144 re B*
+Q
+q
+BT 1 0 0 1 0 122 Tm 12 TL /F6 10 Tf 0 0 0 rg  T*  T* (int main\(\)) Tj T* ({) Tj T* (    int val[] = {60, 100, 120};) Tj T* (    int wt[] = {10, 20, 30};) Tj T* (    int  W = 50;) Tj T* (    int n = sizeof\(val\)/sizeof\(val[0]\);) Tj T* (    printf\("%d", knapSack\(W, wt, val, n\)\);) Tj T* (    return 0;) Tj T* (}) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+ 
+endstream
+endobj
+18 0 obj
+<<
+/Count 0 /Type /Outlines
+>>
+endobj
+19 0 obj
+<<
+/Nums [ 0 20 0 R 1 21 0 R 2 22 0 R ]
+>>
+endobj
+20 0 obj
+<<
+/S /D /St 1
+>>
+endobj
+21 0 obj
+<<
+/S /D /St 2
+>>
+endobj
+22 0 obj
+<<
+/S /D /St 3
+>>
+endobj
+xref
+0 23
+0000000000 65535 f 
+0000000073 00000 n 
+0000000154 00000 n 
+0000000261 00000 n 
+0000000373 00000 n 
+0000000488 00000 n 
+0000000591 00000 n 
+0000000710 00000 n 
+0000000915 00000 n 
+0000001124 00000 n 
+0000001229 00000 n 
+0000001453 00000 n 
+0000001659 00000 n 
+0000001765 00000 n 
+0000002043 00000 n 
+0000002117 00000 n 
+0000012367 00000 n 
+0000018989 00000 n 
+0000019583 00000 n 
+0000019630 00000 n 
+0000019689 00000 n 
+0000019723 00000 n 
+0000019757 00000 n 
+trailer
+<<
+/ID 
+[<1916da2226856a114376743985b991be><1916da2226856a114376743985b991be>]
+% ReportLab generated PDF document -- digest (http://www.reportlab.com)
+
+/Info 13 0 R
+/Root 12 0 R
+/Size 23
+>>
+startxref
+19791
+%%EOF
