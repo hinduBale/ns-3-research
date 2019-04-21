@@ -10,6 +10,10 @@ Problem Statement:
 
 *Given a Knapsack of a maximum capacity of W and N items each with its own value and weight, throw in items inside the Knapsack such that the final contents has the maximum value.*
 
+
+.. image:: https://he-s3.s3.amazonaws.com/media/uploads/82d724d.png
+
+
 **Properties:**
 
 1. In 0/1 Knapsack problem, items can be entirely accepted or rejected.
