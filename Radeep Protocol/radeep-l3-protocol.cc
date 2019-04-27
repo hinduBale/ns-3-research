@@ -26,7 +26,7 @@ namespace ns3 {
 
 NS_LOG_COMPONENT_DEFINE ("RadeepL3Protocol");
 
-const uint16_t RadeepL3Protocol::PROT_NUMBER = 0x63;
+const uint16_t RadeepL3Protocol::PROT_NUMBER = 0x63;   //Here the Protocol number has been set to 99.
 
 NS_OBJECT_ENSURE_REGISTERED (RadeepL3Protocol);
 
