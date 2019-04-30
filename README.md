@@ -34,9 +34,16 @@ installed on a node.
 get our protocol installed on the node.
 6. After the installation of **Radeep** on the node, we will use the *UdpEchoHelper* class to send recieve 
 the ping messages.
+
+### Breakdown Section
+-------------------------
+ The [Breakdown folder](https://github.com/hinduBale/ns-3-research/tree/master/Breakdown%20(Additional%20Comments%20for%20better%20understanding)) is my attempt to put my understanding of the working of ns-3 in front of any one who wants tinker with the code, or want to start contributing or is plain curious. The comments provided in the *.cc* files are in alignment with my goals to create a custom (but rudimentary) L3 protocol, so only files relevant to this would be studied here.
+ 
+ Current files:
+ 1. Ipv4-l3-protocol.cc
   
   
-#### Relevant Research Papers:
+### Relevant Research Papers:
 -----------------------------------
  1.Protocol Description and Implementation
   + [Paper by Dr Pecorella and team](https://www.academia.edu/18002165/ns-3_RPL_module_IPv6_Routing_Protocol_for_Low_power_and_Lossy_Networks)
