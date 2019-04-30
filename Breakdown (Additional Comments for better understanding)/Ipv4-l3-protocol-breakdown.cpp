@@ -127,6 +127,10 @@ public:
  //Time to live
   void SetDefaultTtl (uint8_t ttl);
 
+  //The below Recieve function is for Demultiplexing.
+  //Delivering received segments at receiver side to the correct app layer
+  //processes is called as demultiplexing.
+
   /**
    * Lower layer calls this method after calling L3Demux::Lookup
    * The ARP subclass needs to know from which NetDevice this
@@ -143,6 +147,8 @@ public:
   void Receive ( Ptr<NetDevice> device, Ptr<const Packet> p, uint16_t protocol, const Address &from,
                  const Address &to, NetDevice::PacketType packetType);
 
+
+  //And, this is for multiplexing.
   /**
    * \param packet packet to send
    * \param source source address of packet
@@ -163,8 +169,12 @@ public:
    * Higher-level layers call this method to send a packet with IPv4 Header
    * (Intend to be used with IpHeaderInclude attribute.)
    */
+
+  // This functions sends the header of a particular protocol to higher level protocols.
   void SendWithHeader (Ptr<Packet> packet, Ipv4Header ipHeader, Ptr<Ipv4Route> route);
 
+  //In computing, a network interface is a system's (software and/or hardware) interface between two pieces of equipment or protocol layers in a computer network. 
+  // And here we are adding one such software to communicate between layers.
   uint32_t AddInterface (Ptr<NetDevice> device);
   /**
    * \brief Get an interface.
@@ -187,9 +197,14 @@ public:
   Ipv4Address SelectSourceAddress (Ptr<const NetDevice> device,
                                    Ipv4Address dst, Ipv4InterfaceAddress::InterfaceAddressScope_e scope);
 
-
+  // A metric is typically one of many fields in a routing table.
+  // Router metrics help the router choose the best route among multiple feasible
+  // routes to a destination. The route will go in the direction of the gateway with the lowest 
+  //metric. 
   void SetMetric (uint32_t i, uint16_t metric);
   uint16_t GetMetric (uint32_t i) const;
+
+  //MTU -> Maximum Transmission Unit
   uint16_t GetMtu (uint32_t i) const;
   bool IsUp (uint32_t i) const;
   void SetUp (uint32_t i);
@@ -218,6 +233,12 @@ public:
    * \param [in] packet The packet.
    * \param [in] interface
    */
+
+
+  //The ultimate goal of callbacks is to allow one piece of code to call a function without any
+  // specific inter-module dependency
+
+  //Traced callbacks are used for exchanging information between objects in simulation
   typedef void (* SentTracedCallback)
     (const Ipv4Header & header, Ptr<const Packet> packet, uint32_t interface);
    
@@ -263,6 +284,8 @@ private:
    * \brief Ipv4L3ProtocolTestCase test case.
    * \relates Ipv4L3ProtocolTestCase
    */
+
+  // You might already be aware that a friend class can inherit information from a protected class.
   friend class ::Ipv4L3ProtocolTestCase;
 
   /**
